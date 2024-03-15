@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "luckystaff",
+  "version": "${version}",
+  "name": "Lucky Staff",
+  "description": "The lucky staff item from Animation vs. Minecraft",
+  "authors": [
+    "niclan051"
+  ],
+  "contact": {
+    "repo": "https://github.com/niclan051/luckystaff"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/luckystaff/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.niclan.luckystaff.client.LuckyStaffClient"
+    ],
+    "main": [
+      "me.niclan.luckystaff.LuckyStaff"
+    ]
+  },
+  "mixins": [
+    "luckystaff.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  },
+  "accessWidener" : "luckystaff.accesswidener"
+}
