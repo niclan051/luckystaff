@@ -1,5 +1,4 @@
 accessWidener v1 named
 
-accessible method net/minecraft/entity/Entity scheduleVelocityUpdate ()V
 accessible field net/minecraft/entity/FallingBlockEntity block Lnet/minecraft/block/BlockState;
 accessible method net/minecraft/block/FallingBlock configureFallingBlockEntity (Lnet/minecraft/entity/FallingBlockEntity;)V
